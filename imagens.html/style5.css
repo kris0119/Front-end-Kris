@@ -1,0 +1,66 @@
+.relative-box {
+    position: relative;
+    left: 50px;
+    top: 10px;
+    background-color: lightblue;
+    width: 150px;
+    }
+    .absolute-box {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    background-color: lightcoral;
+    width: 150px;
+    }
+    .fixed-box{ 
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: lightgreen;
+    width: 150px;
+}
+
+.sticky-box {
+  position:-webkit-sticky;
+  top: 10px;
+  background-color: lightgoldenrodyellow;
+  width: 150px;
+}
+.float-container {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+    overflow: auto; /* Garante que o container
+    encapsule o elemento flutuante */
+    }
+    .float-box {
+    float: left;
+    margin-right: 20px;
+    background-color: lightpink;
+    width: 100px;
+    height: 100px;
+    }
+    .clear-box {
+    clear: left;
+    background-color: lightgray;
+    }
+    .z-index-box1 {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    background-color: rgba(173, 216, 230, 0.7);
+        /* lightblue com opacidade */
+     z-index: 1;
+    width: 200px;
+    height: 200px;
+     }    
+    .z-index-box2 {
+    position: absolute;
+    top: 290px;
+    left: 140px;
+     background-color: rgba(240, 128, 128, 0.7);
+     /* lightcoral com opacidade */
+     z-index: 2;
+    width: 200px;
+    height: 200px;
+     }
