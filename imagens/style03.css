@@ -1,0 +1,30 @@
+.profile-card{
+    width:300px ;  
+    border: 2px solid #ccc;
+    padding:20px ;
+    text-align: center;
+   } 
+   .profile-card img{
+    flex-wrap: wrap;
+    width: 100px;
+    height:100px ;
+    border-radius: 50%;
+   }
+   .social-links{
+      margin-top: 100px;
+      border-right: royalblue;
+   }
+  
+   .social-links a{
+    width: 400px;
+    padding: 2px;
+   text-decoration:none;
+   margin:0 10px ;
+   background-color:aquamarine;
+   color: red ;
+   border-radius:900; 
+   }  
+
+body{
+    background-image:url("https://static.vecteezy.com/ti/vetor-gratis/p3/8072558-fundo-azul-com-papel-textura-parede-design-ilustracao-eps10-vetor.jpg");
+    }
