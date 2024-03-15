@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nota do aluno</title>
+</head>
+ <script>
+    var n1 = prompt('digite um valor')
+    var n2 = prompt('digite um valor')
+    var n3 = prompt('digite um valor')
+    n1=parseFloat(n1)
+    console.log(n1)
+    n2=parseFloat(n2)
+    n3=parseFloat(n3)
+    var media = (n1+n2+n3)/3
+    if(media>=7){
+    document.write('Aluno está aprovado')
+    }
+    else if(media>=5){
+      document.write('Aluno está de recuperação')
+    }else{
+        document.write('Aluno está reprovado')
+    }
+    </script>
+<body>
+    
+</body>
+</html>
